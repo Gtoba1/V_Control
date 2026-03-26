@@ -1,0 +1,277 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"TDL-G2\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-NG",
+    "tables": [
+      {
+        "name": "TDL-G2",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "columns": [
+          {
+            "name": "MainAccount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dc1ca803-54d6-49b3-a538-521a9caf45bc",
+            "sourceColumn": "MainAccount",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PURPOSE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4bcfbee3-1ff8-4e36-88c5-0cd8f82adfb2",
+            "sourceColumn": "PURPOSE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aee5c8da-5fe2-44e2-9e48-e74a6d564783",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Opening balance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "808240f3-46cd-4a5e-a468-9b22b4ebfa07",
+            "sourceColumn": "Opening balance",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Debit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "cbce3731-df49-4716-bbd7-1976147ceff5",
+            "sourceColumn": "Debit",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Credit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b10d9729-b462-4713-a3e7-07c517f3365d",
+            "sourceColumn": "Credit",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Closing balance",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4a517178-a8c3-4930-82fe-d936c047ce33",
+            "sourceColumn": "Closing balance",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Opening balance - Reporting currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4e85a169-5ab5-4824-9412-dad27384db14",
+            "sourceColumn": "Opening balance - Reporting currency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Debit - Reporting currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4dbd4f3e-2773-4f30-ba12-ff88313f0a76",
+            "sourceColumn": "Debit - Reporting currency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Credit - Reporting currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "3f3656a1-6ca3-4081-98cf-87c5199f7cf2",
+            "sourceColumn": "Credit - Reporting currency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ending balance - Reporting currency",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "fe6549b8-70d2-4cc5-9767-4dbb0bdc32ad",
+            "sourceColumn": "Ending balance - Reporting currency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Compound dimension/account value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "531c7cb5-acff-4575-9364-d49437153904",
+            "sourceColumn": "Compound dimension/account value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ledger account category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3b880996-59ea-43cc-affb-cb9db33ffa46",
+            "sourceColumn": "Ledger account category",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a69e1877-2697-484c-8f0c-6cdcf4170a7e",
+        "partitions": [
+          {
+            "name": "TDL-G2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\gabri\\Downloads\\TDL-G2.xlsx\"), null, true),",
+                "    Sheet1_Sheet = Source{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"MainAccount\", Int64.Type}, {\"PURPOSE\", type text}, {\"Name\", type text}, {\"Opening balance\", type number}, {\"Debit\", type number}, {\"Credit\", type number}, {\"Closing balance\", type number}, {\"Opening balance - Reporting currency\", type number}, {\"Debit - Reporting currency\", type number}, {\"Credit - Reporting currency\", type number}, {\"Ending balance - Reporting currency\", type number}, {\"Compound dimension/account value\", type text}, {\"Ledger account category\", type any}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
